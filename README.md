@@ -1,13 +1,13 @@
 Small repo to demonstrate presence of a bug in CakePHP 2.x
 
-*Run composer install
-*Create a database to use for tests
-*Create `phinx.yml` in base directory using provided `phinx.yml.sample`
-*Populate tables for test with `vendor/bin/phinx migrate`
-*Create `app/Config/database.php` using `app/Config/database.php.default`
-*Make `app/tmp` and its subdirectories writeable
-*Run tests with `app/Console/cake test app HabtmLoadmodel`
-*Second test should fail:
+* Run composer install
+* Create a database to use for tests
+* Create `phinx.yml` in base directory using provided `phinx.yml.sample`
+* Populate tables for test with `vendor/bin/phinx migrate`
+* Create `app/Config/database.php` using `app/Config/database.php.default`
+* Make `app/tmp` and its subdirectories writeable
+* Run tests with `app/Console/cake test app HabtmLoadmodel`
+* Second test should fail:
 
 ```php
 <?php
