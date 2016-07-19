@@ -1,0 +1,5 @@
+phinx.yml
+app/Config/database.php
+app/tmp/**/*
+!app/tmp/**/empty
+vendor/
